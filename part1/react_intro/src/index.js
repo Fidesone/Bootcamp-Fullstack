@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 const App = () => {
+
   const course = {
     name: 'Half Stack application development',
     parts: [
@@ -34,7 +35,6 @@ const App = () => {
         
       })}
     </div>
-  )
-}
 
+)}
 ReactDOM.render(<App />, document.getElementById('root'))
